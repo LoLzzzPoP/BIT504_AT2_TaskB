@@ -33,7 +33,8 @@ import java.awt.Font;
 	private final static int WINNER_TEXT_X = 200;
 	private final static int WINNER_TEXT_Y = 200;
 	private final static int WINNER_FONT_SIZE = 80;
-	private final static String WINNER_FONT_FAMILY = "Dialog";
+
+	private final static String WINNER_FONT_FAMILY = "Dialog"
 	private final static String WINNER_TEXT = "WIN!";
 	
 	public PongPanel() {
@@ -159,7 +160,7 @@ import java.awt.Font;
 	      Graphics2D g2d = (Graphics2D) g.create();
 	         Stroke dashed = new BasicStroke(3, BasicStroke.CAP_BUTT, BasicStroke.JOIN_BEVEL, 0, new float[]{9}, 0);
 	         g2d.setStroke(dashed);
-	         g2d.setPaint(Color.WHITE);
+	         g2d.setPaint(Color.GREEN);
 	         g2d.drawLine(getWidth() / 2, 0, getWidth() / 2, getHeight());
 	         g2d.dispose();
 	 }
