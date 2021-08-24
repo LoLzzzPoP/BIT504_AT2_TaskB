@@ -32,8 +32,8 @@ import java.awt.Font;
 	
 	private final static int WINNER_TEXT_X = 200;
 	private final static int WINNER_TEXT_Y = 200;
-	private final static int WINNER_FONT_SIZE = 40;
-	private final static String WINNER_FONT_FAMILY = "Serif";
+	private final static int WINNER_FONT_SIZE = 80;
+	private final static String WINNER_FONT_FAMILY = "Monospaced";
 	private final static String WINNER_TEXT = "WIN!";
 	
 	public PongPanel() {
